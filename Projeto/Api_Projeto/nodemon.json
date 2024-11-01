@@ -1,0 +1,8 @@
+{
+    "env":{
+        "MONGO_ATLAS_PW": "123",
+        "PORT" : 3000,
+        "JWT_KEY": "secret",
+        "OMDB_API_KEY": "5790c1ec"
+    }
+}

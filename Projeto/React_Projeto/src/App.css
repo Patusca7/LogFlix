@@ -1,0 +1,49 @@
+.full-width-container {
+  width: 100vw;
+}
+
+.full-heigth-container {
+  heigth: 100vh;
+  min-height: 100vh; /* Ensure at least full viewport height */
+  padding: 20p;
+}
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.button-container > button {
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.btn-close {
+  filter: invert(1) grayscale(100%) brightness(200%);
+}
+
+.button-style {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.btn-dark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.offcanvas-bg {
+  background-color: #212529 !important;
+}
+
+.offcanvas-body button {
+  color: #ffffff;
+  text-align: left;
+}
+
+.page-background {
+  background-color: rgb(240, 255, 255);
+  overflow-x: hidden;
+}
